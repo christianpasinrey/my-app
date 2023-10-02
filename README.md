@@ -1,3 +1,63 @@
+# Next.js Application with Tailwind CSS and ORM
+This is a sample application that uses Next.js, Tailwind CSS, and MVC architecture to manage various entities that you want to add to the application. The database connection is currently limited to MySQL.
+
+## Installation
+To install the application, follow these steps:
+
+Clone the repository to your local machine.
+
+Open a terminal in the project's root folder.
+
+Run the npm install command to install the dependencies.
+
+Create an .env file in the project's root folder and define the necessary environment variables for the database connection. For example:
+
+<table>
+  <thead>
+    <tr>
+      <th>Environment Variable</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DB_HOST</td>
+      <td>localhost</td>
+    </tr>
+    <tr>
+      <td>DB_NAME</td>
+      <td>my_database</td>
+    </tr>
+    <tr>
+      <td>DB_USER</td>
+      <td>my_username</td>
+    </tr>
+    <tr>
+      <td>DB_PASS</td>
+      <td>my_password</td>
+    </tr>
+  </tbody>
+</table>
+Manually create the users table with the attributes defined in the user.js model.
+
+Run the npm run dev command to start the application in development mode.
+
+## Usage
+Once the application is up and running, you can access it in your web browser at http://localhost:3000. The home page will display a title and a subtitle.
+
+## Contribution
+If you want to contribute to the application, follow these steps:
+
+Fork the repository on GitHub.
+Clone the repository to your local machine.
+Create a new branch for your contribution.
+Make your changes and commit them in the new branch.
+Push the new branch to your fork on GitHub.
+Create a pull request in the original repository.
+License
+This application is licensed under the MIT License. See the LICENSE file for more information.
+
+
 # Aplicación Next.js con Tailwind CSS y ORM
 
 Esta es una aplicación de ejemplo que utiliza Next.js, Tailwind CSS y arquitectura MVC para manejar las distintas entiedades que queramos agregar a la aplicación. La conexión a base de datos está limitada actualmente a MySQL.
