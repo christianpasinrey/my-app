@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aplicación Next.js con Tailwind CSS y ORM
 
-## Getting Started
+Esta es una aplicación de ejemplo que utiliza Next.js, Tailwind CSS y un ORM para mostrar una página de inicio con un título y un subtítulo.
 
-First, run the development server:
+## Instalación
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para instalar la aplicación, sigue estos pasos:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clona el repositorio en tu máquina local.
+2. Abre una terminal en la carpeta raíz del proyecto.
+3. Ejecuta el comando `npm install` para instalar las dependencias.
+4. Crea un archivo `.env` en la carpeta raíz del proyecto y define las variables de entorno necesarias para la conexión a la base de datos. Por ejemplo:
+<table>
+  <thead>
+    <tr>
+      <th>Variable de entorno</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DB_HOST</td>
+      <td>localhost</td>
+    </tr>
+    <tr>
+      <td>DB_NAME</td>
+      <td>my_database</td>
+    </tr>
+    <tr>
+      <td>DB_USER</td>
+      <td>my_username</td>
+    </tr>
+    <tr>
+      <td>DB_PASS</td>
+      <td>my_password</td>
+    </tr>
+  </tbody>
+</table>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+5. Crear manualmente la tabla users con los atributos definidos en el modelo user.js
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+6. Ejecuta el comando `npm run dev` para iniciar la aplicación en modo de desarrollo.
 
-## Learn More
+## Uso
 
-To learn more about Next.js, take a look at the following resources:
+Una vez que la aplicación esté en funcionamiento, puedes acceder a ella en tu navegador web en la dirección `http://localhost:3000`. La página de inicio mostrará un título y un subtítulo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribución
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Si deseas contribuir a la aplicación, sigue estos pasos:
 
-## Deploy on Vercel
+1. Haz un fork del repositorio en GitHub.
+2. Clona el repositorio en tu máquina local.
+3. Crea una nueva rama para tu contribución.
+4. Realiza tus cambios y haz commit de tus cambios en la nueva rama.
+5. Haz push de la nueva rama a tu fork en GitHub.
+6. Crea un pull request en el repositorio original.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Esta aplicación está bajo la licencia MIT. Consulta el archivo LICENSE para obtener más información.
