@@ -58,6 +58,7 @@ License
 This application is licensed under the MIT License. See the LICENSE file for more information.
 
 <hr>
+
 # Aplicación Next.js con Tailwind CSS y ORM
 
 Esta es una aplicación de ejemplo que utiliza Next.js, Tailwind CSS y arquitectura MVC para manejar las distintas entiedades que queramos agregar a la aplicación. La conexión a base de datos está limitada actualmente a MySQL.
