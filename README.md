@@ -1,6 +1,6 @@
 # Aplicación Next.js con Tailwind CSS y ORM
 
-Esta es una aplicación de ejemplo que utiliza Next.js, Tailwind CSS y un ORM para mostrar una página de inicio con un título y un subtítulo.
+Esta es una aplicación de ejemplo que utiliza Next.js, Tailwind CSS y arquitectura MVC para manejar las distintas entiedades que queramos agregar a la aplicación. La conexión a base de datos está limitada actualmente a MySQL.
 
 ## Instalación
 
